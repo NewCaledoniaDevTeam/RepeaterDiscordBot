@@ -61,7 +61,7 @@ setTimeout(function(){
       .addField(`**${prefix}repeater**`, `repeats after the ${prefix}repeater`)
       .setImage("https://i.imgur.com/57C4nBC.jpg")
 	  .setTimestamp()
-	  .setFooter('2020 Weird.exe during covid-19', 'https://i.imgur.com/91WUA6s.png');
+	  
 
     message.channel.send(embed);
   }
